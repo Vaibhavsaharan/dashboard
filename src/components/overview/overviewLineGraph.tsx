@@ -241,8 +241,8 @@ const OverviewLineGraph = () => {
   if (data.length == 0) return <p>No data</p>;
 
   return (
-    <div className="flex flex-row">
-      <div className="w-[660px] h-[330px]  bg-slate">
+    <div className="flex flex-wrap flex-grow">
+      <div className="w-4/5 aspect-video  bg-slate">
         <Line
           options={lineOptions}
           data={{

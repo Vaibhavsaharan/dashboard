@@ -28,7 +28,7 @@ const OverviewSummary = () => {
     },
   ];
   return (
-    <div className="flex flex-row justify-between flex-grow">
+    <div className="flex flex-wrap justify-between flex-grow gap-4">
       {summaryItems.map((item, index) => (
         <div key={index}>
           <Card

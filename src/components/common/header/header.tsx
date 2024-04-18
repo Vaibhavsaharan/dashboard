@@ -3,7 +3,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="py-5 px-6 border">
-      <div className="flex justify-between">
+      <div className="flex flex-wrap justify-between">
         <div className="flex">
           <Image
             src={"dashboard.svg"}

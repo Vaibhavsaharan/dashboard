@@ -14,7 +14,7 @@ const Card = ({
   deltaPositive: boolean;
 }) => {
   return (
-    <div className={`rounded-xl p-6 w-[200px] ${index % 2 == 0 ? "bg-blue" : "bg-grey"}`}>
+    <div className={`rounded-xl p-6  ${index % 2 == 0 ? "bg-blue" : "bg-grey"}`}>
       <div className="flex flex-col items-start">
         <div className="text-sm mb-2">{title}</div>
         <div className="flex flex-row items-center">
